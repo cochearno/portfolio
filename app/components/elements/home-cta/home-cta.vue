@@ -1,5 +1,5 @@
 <template>
-	<div :class="cssClass">
+	<div :class="cssClass" @click="handleRedirect">
 		<span class="home-cta-text">{{ text }}</span>
 	</div>
 </template>
@@ -16,6 +16,14 @@ export default {
 		variant: {
 			type: String,
 			default: "primary"
+		},
+		interact: {
+			type: String,
+			default: "redirect"
+		},
+		redirectUrl : {
+			type: String,
+			default: undefined
 		}
   },
 	computed: {
@@ -25,6 +33,16 @@ cssClass() {
 		`home-cta--${this.variant}`
 	]
 }
+	},
+	emits: ["cta-redirect"],
+	methods: {
+		handleRedirect() {
+			const redirectData = {
+				interact: this.interact,
+				redirectUrl : this.redirectUrl
+			}
+			this.$emit("cta-redirect", redirectData)
+		}
 	}
 };
 </script>

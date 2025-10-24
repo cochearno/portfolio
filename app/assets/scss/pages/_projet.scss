@@ -1,0 +1,36 @@
+.project-title-page {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	border-style: solid;
+	border-color: red;
+	height: 86px;
+}
+.project-line-two {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	justify-content: space-between;
+	align-items: start;
+	gap: 10px;
+	border-style: solid;
+	border-color: blue;
+	height: 486px;
+}
+.project-one,
+.project-two,
+.project-three,
+.project-four,
+.project-five,
+.project-six {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	border-style: solid;
+
+	height: 200px;
+	border-color: thistle;
+}
+
