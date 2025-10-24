@@ -21,6 +21,7 @@
 export default {
 	data() {
 		const ctaList = [
+			{ text: "Accueil" },
 			{ text: "Projets" },
 			{ text: "Resume", variant: "secondary" },
 			{ text: "Contacts" },
