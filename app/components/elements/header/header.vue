@@ -16,6 +16,7 @@
 export default {
 	data() {
 		const buttonList = [
+			{ text: "Accueil" },
 			{ text: "Projets" },
 			{ text: "Resume" },
 			{ text: "Contacts" },
