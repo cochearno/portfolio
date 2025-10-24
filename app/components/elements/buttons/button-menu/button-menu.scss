@@ -1,0 +1,19 @@
+.button-menu-heading {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	border-bottom-style: solid;
+	border-bottom: solid 1px grey;
+	margin-right: 100px;
+	gap: 20px;
+	width: 75px;
+	height: 30px;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	&:hover {
+		color: blue;
+		cursor: pointer;
+		font-weight: bolder;
+	}
+}
+
