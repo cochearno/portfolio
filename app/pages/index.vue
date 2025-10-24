@@ -1,8 +1,15 @@
 <template>
 	<div class="home">
-		<div>Photo</div>
+		<div class="img-max">
+			<img src="../assets/img/max.png" alt="max" />
+		</div>
 		<div class="presentation">
-			<div class="presentation-text">Hello</div>
+			<div class="presentation-text">
+				<h1>salut salut !!!</h1>
+				<span>
+					Voici mon portfolio qui mets en avant toutes mes productions
+				</span>
+			</div>
 			<div class="presentation-round">
 				<elements-home-cta v-for="cta in ctaList" v-bind="cta" />
 			</div>
