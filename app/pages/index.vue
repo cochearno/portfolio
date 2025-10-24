@@ -25,12 +25,12 @@
 export default {
 	data() {
 		const ctaList = [
-			{ text: "Projets", interact: "redirect", redirectUrl: "/azerty" },
+			{ text: "Projets", interact: "redirect", redirectUrl: "/projet" },
 			{
 				text: "Resume",
 				variant: "secondary",
 				interact: "redirect",
-				redirectUrl: "/azerty",
+				redirectUrl: "/",
 			},
 			{ text: "Contacts", interact: "openModal" },
 		];
