@@ -11,7 +11,11 @@
 				</span>
 			</div>
 			<div class="presentation-round">
-				<elements-home-cta v-for="cta in ctaList" v-bind="cta" />
+				<elements-home-cta
+					v-for="cta in ctaList"
+					v-bind="cta"
+					@cta-redirect="handleClick"
+				/>
 			</div>
 		</div>
 	</div>
@@ -21,13 +25,25 @@
 export default {
 	data() {
 		const ctaList = [
-			{ text: "Projets" },
-			{ text: "Resume", variant: "secondary" },
-			{ text: "Contacts" },
+			{ text: "Projets", interact: "redirect", redirectUrl: "/azerty" },
+			{
+				text: "Resume",
+				variant: "secondary",
+				interact: "redirect",
+				redirectUrl: "/azerty",
+			},
+			{ text: "Contacts", interact: "openModal" },
 		];
 		return {
 			ctaList,
 		};
+	},
+	methods: {
+		handleClick(item) {
+			if (item.interact === "redirect") {
+				navigateTo(item.redirectUrl);
+			}
+		},
 	},
 };
 </script>
