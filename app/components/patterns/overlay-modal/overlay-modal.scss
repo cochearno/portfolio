@@ -15,7 +15,7 @@
 	border-radius: 8px;
 	width: 50vw;
 	max-width: 750px;
-	height: 400px;
+	height: 427px;
 	border-style: solid;
 	border-color: grey;
 }
@@ -27,6 +27,11 @@
 	border-bottom-style: solid;
 	border-bottom-width: 1px;
 }
+.title {
+	color: grey;
+	font-weight: 15px;
+	font-size: 25px;
+}
 .overlay-body {
 	display: flex;
 	flex-direction: row;
@@ -35,15 +40,17 @@
 .mail-phone-adress {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: space-between;
 	border-right-style: solid;
 	border-right-width: 1px;
-	width: 375px;
+	width: 360px;
+	margin-left: 15px;
 }
 .mail-name,
 .phone-name,
 .adress-name {
 	text-transform: uppercase;
 	text-decoration: underline;
+	color: gray;
 }
 

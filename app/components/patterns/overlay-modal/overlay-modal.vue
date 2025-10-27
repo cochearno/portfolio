@@ -2,7 +2,7 @@
 	<div class="overlay-modal">
 		<div :class="cssClass">
 			<div class="overlay-modal-title">
-				<p>{{ text }}</p>
+				<p class="title">{{ text }}</p>
 			</div>
 			<div class="overlay-body">
 				<div class="mail-phone-adress">
