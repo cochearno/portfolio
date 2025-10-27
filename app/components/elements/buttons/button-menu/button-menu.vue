@@ -1,5 +1,5 @@
 <template>
-	<div class="button-menu-heading">{{ text }}</div>
+	<div class="button-menu-heading" @click="handleDirect">{{ text }}</div>
 </template>
 
 <script lang="js">
@@ -10,7 +10,7 @@ export default {
       type: String,
       required: false,
       default: undefined,
-    }
+    },
   },
 };
 </script>

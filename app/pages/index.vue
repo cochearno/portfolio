@@ -30,7 +30,7 @@ export default {
 				text: "Resume",
 				variant: "secondary",
 				interact: "redirect",
-				redirectUrl: "/",
+				redirectUrl: "/resume",
 			},
 			{ text: "Contacts", interact: "openModal" },
 		];

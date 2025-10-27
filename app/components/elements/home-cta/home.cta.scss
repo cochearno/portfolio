@@ -16,10 +16,11 @@
 	width: 200px;
 	border-radius: 100%;
 	background-color: rgb(194, 196, 196);
-	border-style: solid;
-	border-color: antiquewhite;
 	span {
 		color: black;
+		&:hover {
+			color: white;
+		}
 	}
 }
 .home-cta-text {
@@ -30,5 +31,8 @@
 	color: white;
 	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 	font-size: 45px;
+	&:hover {
+		color: black;
+	}
 }
 
