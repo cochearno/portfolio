@@ -57,7 +57,8 @@
 .mail-phone-adress {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: start;
+	align-items: stretch;
 	border-right-style: solid;
 	border-color: grey;
 	border-right-width: 2px;
@@ -65,6 +66,7 @@
 	margin-left: 15px;
 	font-weight: 500;
 	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	gap: 40px;
 }
 .mail-name,
 .phone-name,
@@ -100,6 +102,9 @@
 	height: 75px;
 	&:hover {
 		cursor: pointer;
+	}
+	&-link {
+		overflow: hidden;
 	}
 }
 

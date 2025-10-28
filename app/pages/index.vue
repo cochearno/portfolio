@@ -17,7 +17,11 @@
 					@cta-redirect="handleClick"
 					@click="openModal = true"
 				/>
-				<patterns-overlay-modal v-if="openModal" text="Me Contacter" />
+				<patterns-overlay-modal
+					v-if="openModal"
+					text="Me Contacter"
+					@close-modal="openModal = false"
+				/>
 			</div>
 		</div>
 	</div>
