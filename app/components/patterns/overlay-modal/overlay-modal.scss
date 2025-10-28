@@ -25,12 +25,14 @@
 	justify-content: center;
 	align-items: center;
 	border-bottom-style: solid;
-	border-bottom-width: 1px;
+	border-color: grey;
+	border-bottom-width: 2px;
 }
 .title {
 	color: grey;
 	font-weight: 15px;
 	font-size: 25px;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .overlay-body {
 	display: flex;
@@ -42,9 +44,12 @@
 	flex-direction: column;
 	justify-content: space-around;
 	border-right-style: solid;
-	border-right-width: 1px;
+	border-color: grey;
+	border-right-width: 2px;
 	width: 360px;
 	margin-left: 15px;
+	font-weight: 500;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .mail-name,
 .phone-name,
@@ -52,6 +57,9 @@
 	text-transform: uppercase;
 	text-decoration: underline;
 	color: gray;
+	&:hover {
+		color: blue;
+	}
 }
 .social-network {
 	display: grid;
@@ -64,7 +72,12 @@
 .instagram,
 .x,
 .github {
-	margin-top: 65px;
+	overflow: hidden;
+	border-style: solid;
+	border-color: grey;
+	border-width: 1px;
+	border-radius: 100%;
+	margin-top: 50px;
 	margin-left: 65px;
 	display: flex;
 	flex-direction: column;
