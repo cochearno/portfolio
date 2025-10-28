@@ -1,8 +1,12 @@
 <template>
 	<div class="home">
-		<div class="img-max">
-			<img src="../assets/img/max.png" alt="max" />
+		<div class="photo-name">
+			<div class="img-max">
+				<img src="../assets/img/max.png" alt="max" />
+			</div>
+			<div class="name"><h1>Maxime Kuhn</h1></div>
 		</div>
+
 		<div class="presentation">
 			<div class="presentation-text">
 				<h1>Bonjour, Bienvenue sur mon Portfolio</h1>
