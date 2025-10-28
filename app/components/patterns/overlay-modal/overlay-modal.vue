@@ -17,7 +17,26 @@
 						18 rue nasser Al K, Saint germain en laye
 					</p>
 				</div>
-				<div class="social-network"></div>
+				<div class="social-network">
+					<div class="facebook">
+						<img
+							src="../../../assets/icones/facebook.png"
+							alt="icon-facebook"
+						/>
+					</div>
+					<div class="instagram">
+						<img
+							src="../../../assets/icones/instagram.png"
+							alt="icon-instagram"
+						/>
+					</div>
+					<div class="x">
+						<img src="../../../assets/icones/twitter.png" alt="icon-x" />
+					</div>
+					<div class="github">
+						<img src="../../../assets/icones/github.png" alt="icon-github" />
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

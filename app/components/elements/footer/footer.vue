@@ -8,7 +8,7 @@
 			E-mail
 			<span class="mail">henri.boucher@gmail.com</span>
 		</div>
-		<div class="social-network">
+		<div class="social-network-footer">
 			Suivez-moi
 			<span class="liens"></span>
 		</div>

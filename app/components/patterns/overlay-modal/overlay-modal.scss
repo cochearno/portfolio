@@ -40,7 +40,7 @@
 .mail-phone-adress {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: space-around;
 	border-right-style: solid;
 	border-right-width: 1px;
 	width: 360px;
@@ -52,5 +52,26 @@
 	text-transform: uppercase;
 	text-decoration: underline;
 	color: gray;
+}
+.social-network {
+	display: grid;
+	grid-template-columns: 150px 150px;
+	justify-content: start;
+	width: 300px;
+	height: 300px;
+}
+.facebook,
+.instagram,
+.x,
+.github {
+	margin-top: 65px;
+	margin-left: 65px;
+	display: flex;
+	flex-direction: column;
+	width: 75px;
+	height: 75px;
+	&:hover {
+		cursor: pointer;
+	}
 }
 
