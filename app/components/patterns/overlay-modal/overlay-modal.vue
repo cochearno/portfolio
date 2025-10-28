@@ -3,13 +3,13 @@
 		<div :class="cssClass">
 			<div class="overlay-modal-title">
 				<p class="title">{{ text }}</p>
-				<img
-					src="../../../assets/icones/close.png"
-					alt="icon-cross"
+				<font-awesome
+					icon="xmark"
 					class="icon-cross"
 					@click="$emit('close-modal')"
 				/>
 			</div>
+
 			<div class="overlay-body">
 				<div class="mail-phone-adress">
 					<a href="cochearno17@gmail.com" target="_blank"></a>

@@ -5,10 +5,7 @@
 		</div>
 		<div class="presentation">
 			<div class="presentation-text">
-				<h1>salut salut !!!</h1>
-				<span>
-					Voici mon portfolio qui mets en avant toutes mes productions
-				</span>
+				<h1>Bonjour, Bienvenue sur mon Portfolio</h1>
 			</div>
 			<div class="presentation-round">
 				<elements-home-cta
@@ -61,5 +58,5 @@ export default {
 	},
 };
 </script>
-<style lang="scss" src="../assets/scss/pages/_home.scss" />
+<style lang="scss" src="../assets/scss/pages/_index.scss" />
 

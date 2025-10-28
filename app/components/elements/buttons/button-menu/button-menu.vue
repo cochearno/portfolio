@@ -1,5 +1,5 @@
 <template>
-	<div class="button-menu-heading" @click="handleDirect">{{ text }}</div>
+	<div class="button-menu-heading" @click="handleRedirect">{{ text }}</div>
 </template>
 
 <script lang="js">
@@ -11,7 +11,25 @@ export default {
       required: false,
       default: undefined,
     },
+		interact: {
+			type: String,
+			default: "redirect"
+		},
+		redirectUrl: {
+			type: String,
+			default: undefined
+		}
   },
+	emits: ["cta-redirect"],
+	methods: {
+		handleRedirect() {
+			const redirectData = {
+				interact: this.interact,
+				redirectUrl : this.redirectUrl
+			}
+			this.$emit("cta-redirect", redirectData)
+		}
+	}
 };
 </script>
 
