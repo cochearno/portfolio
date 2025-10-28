@@ -30,10 +30,25 @@
 }
 .title {
 	color: grey;
+	margin-left: 250px;
 	font-weight: 15px;
 	font-size: 25px;
 	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+.icon-cross {
+	color: grey;
+	font-weight: 2px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	margin-left: 200px;
+	width: 18px;
+	height: 18px;
+	&:hover {
+		cursor: pointer;
+	}
+}
+
 .overlay-body {
 	display: flex;
 	flex-direction: row;

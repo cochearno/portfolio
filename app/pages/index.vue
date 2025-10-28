@@ -15,7 +15,9 @@
 					v-for="cta in ctaList"
 					v-bind="cta"
 					@cta-redirect="handleClick"
+					@click="openModal = true"
 				/>
+				<patterns-overlay-modal v-if="openModal" text="Me Contacter" />
 			</div>
 		</div>
 	</div>
@@ -32,10 +34,18 @@ export default {
 				interact: "redirect",
 				redirectUrl: "/resume",
 			},
-			{ text: "Contacts", interact: "openModal" },
+			{
+				text: "Contacts",
+				interact: "openModal",
+				openModal: true,
+			},
 		];
+		const openModal = false;
+		const closeModal = false;
 		return {
 			ctaList,
+			openModal,
+			closeModal,
 		};
 	},
 	methods: {

@@ -3,6 +3,12 @@
 		<div :class="cssClass">
 			<div class="overlay-modal-title">
 				<p class="title">{{ text }}</p>
+				<img
+					src="../../../assets/icones/close.png"
+					alt="icon-cross"
+					class="icon-cross"
+					@click="$emit('close-modal')"
+				/>
 			</div>
 			<div class="overlay-body">
 				<div class="mail-phone-adress">
@@ -51,6 +57,7 @@ export default {
 			default: "",
 		},
 	},
+	emits: ["close-modal"],
 	computed: {
 		cssClass() {
 			return ["overlay-modal-wrapper"];

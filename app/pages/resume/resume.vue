@@ -2,7 +2,6 @@
 	<div class="resume-page">
 		<div class="resume-page-title">
 			<h1>Maxime Kuhn</h1>
-			<input type="button" value="openModal" @click="openModal = true" />
 			<span class="titre">Développeur Web Fullstack en formation </span>
 			<span class="accroche"
 				>Je concois des interfaces web modernes, accessibles et centrées
