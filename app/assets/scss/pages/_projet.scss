@@ -4,25 +4,24 @@
 	justify-content: space-around;
 	align-items: center;
 	border-style: solid;
-	border-color: red;
 	height: 86px;
+	font-size: 50px;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	color: grey;
 }
 .project-line-two {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
+	grid-template-rows: 1fr;
 	margin-left: 200px;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
-	gap: 10px;
 	height: 486px;
 }
+
 .project-one,
 .project-two,
-.project-three,
-.project-four,
-.project-five,
-.project-six {
+.project-three {
 	overflow: hidden;
 	display: flex;
 	flex-direction: row;
@@ -31,11 +30,18 @@
 	border-style: solid;
 	cursor: pointer;
 	border-radius: 100%;
-	width: 200px;
-	height: 200px;
+	width: 300px;
+	height: 300px;
 	border-color: grey;
 }
 .capudculotte {
 	overflow: hidden;
+	width: 300px;
+	height: 300px;
+}
+.baptservices {
+	overflow: hidden;
+	width: 300px;
+	height: 300px;
 }
 
