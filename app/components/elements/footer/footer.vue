@@ -2,11 +2,11 @@
 	<div class="page-footer">
 		<div class="phone-number">
 			Téléphone
-			<span class="number">0606060606</span>
+			<span class="number">06.31.58.15.33</span>
 		</div>
 		<div class="mail-adress">
 			E-mail
-			<span class="mail">henri.boucher@gmail.com</span>
+			<span class="mail">kuhn.maxime1987@gmail.com</span>
 		</div>
 		<div class="copyright">
 			Copyright

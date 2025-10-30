@@ -14,14 +14,14 @@
 				<div class="mail-phone-adress">
 					<a href="cochearno17@gmail.com" target="_blank"></a>
 					<p class="mail">
-						<span class="mail-name">Mail:</span> cochearno17@gmail.com
+						<span class="mail-name">Mail:</span> kuhn.maxime1987@gmail.com
 					</p>
 					<p class="phone">
-						<span class="phone-name">Téléphone:</span> 0606060606
+						<span class="phone-name">Téléphone:</span> 06.31.58.15.33
 					</p>
 					<p class="adress">
 						<span class="adress-name">Adresse:</span>
-						18 rue nasser Al K, Saint germain en laye
+						131 route de Saint Amand, 59310 Mouchin
 					</p>
 				</div>
 				<div class="social-network">
