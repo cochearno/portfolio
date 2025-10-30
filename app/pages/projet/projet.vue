@@ -2,7 +2,13 @@
 	<div class="project-page">
 		<div class="project-title-page">Mes projets réalisés</div>
 		<div class="project-line-two">
-			<div class="project-one">one</div>
+			<div class="project-one">
+				<img
+					src="../../assets/img/capudculotte.png"
+					alt="logo-capudculotte"
+					class="capudculotte"
+				/>
+			</div>
 			<div class="project-two">two</div>
 			<div class="project-three">three</div>
 			<div class="project-four">four</div>

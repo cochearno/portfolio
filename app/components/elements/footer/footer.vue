@@ -10,7 +10,7 @@
 		</div>
 		<div class="copyright">
 			Copyright
-			<span class="copy">©2025</span>
+			<span class="copy">KuhnMaxime©2025</span>
 		</div>
 	</div>
 </template>
