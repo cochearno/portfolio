@@ -1,25 +1,15 @@
 <template>
-	<div class="resume-page">
-		<div class="resume-page-title">
-			<h1>Développeur Web Fullstack</h1>
-			<div class="titre">En formation actuellement chez Chronodrive</div>
-			<span class="accroche"
-				>Je conçois des interfaces web modernes, accessibles et centrées
-				utilisateur</span
+	<div class="resume">
+		<div class="resume-page">
+			<span
+				>Actuellement en formation de développement web, j'explore les languages
+				et outils du front-end: HTML, CSS, Javascript, React et Figma et serais
+				amené a découvrir le back-end. Chaque projet est pour moi une occasion
+				de progresser, d'expérimenter et de trouver ma voie dans cet univers en
+				constante évolution, tout en exprimant mon coté créatif. je cherche à
+				allier design réfléchi et code propre, pour créer des interfaces qui
+				font sens.</span
 			>
-		</div>
-		<div class="resume-page-contenu">
-			<div class="title-contenu"><h2>Expériences Professionelles</h2></div>
-			<div class="text-contenu">
-				Après plus de dix ans dans le domaine de la collecte du déchet et une
-				reconversion professionelle. <br />
-				Je me suis lancé dans une formation de développeur web et web mobile au
-				sein du centre européen de formation. <br />J'effectue actuellement un
-				stage d'une durée de dix semaines dans l'entreprise Chronodrive.
-			</div>
-		</div>
-		<div class="resume-page-loisir">
-			<div class="centre-title"><h2>Centre d'intérets</h2></div>
 		</div>
 	</div>
 </template>
